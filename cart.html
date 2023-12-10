@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group6 Shopping Website - Shopping cart</title>
+    <link href="assets\css\cartstyling.css" rel="stylesheet" type="text/css">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets\css\main.css" rel="stylesheet">
+</head>
+
+<body>
+     <!-- Reference List -->
+
+    <!-- 
+        Bootstrap Navbar Skeleton Code
+        https://getbootstrap.com/docs/5.2/components/navbar/#offcanvas
+    -->
+    <nav class="navbar navbar-dark bg-black text-white fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <div class="logo">
+              <span>6</span>
+            </div>
+          </a>
+          <div class="d-flex align-items-center">
+            <a href="#">
+              <svg alt="https://www.svgrepo.com/svg/513008/twitter-154" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15px" viewBox="0 -2 20 20" version="1.1">
+      
+                <title>twitter [#154]</title>
+                <desc>Created with Sketch.</desc>
+                <defs>
+            
+                </defs>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
+                    <g id="Dribbble-Light-Preview" transform="translate(-60.000000, -7521.000000)" fill="currentColor">
+                        <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M10.29,7377 C17.837,7377 21.965,7370.84365 21.965,7365.50546 C21.965,7365.33021 21.965,7365.15595 21.953,7364.98267 C22.756,7364.41163 23.449,7363.70276 24,7362.8915 C23.252,7363.21837 22.457,7363.433 21.644,7363.52751 C22.5,7363.02244 23.141,7362.2289 23.448,7361.2926 C22.642,7361.76321 21.761,7362.095 20.842,7362.27321 C19.288,7360.64674 16.689,7360.56798 15.036,7362.09796 C13.971,7363.08447 13.518,7364.55538 13.849,7365.95835 C10.55,7365.79492 7.476,7364.261 5.392,7361.73762 C4.303,7363.58363 4.86,7365.94457 6.663,7367.12996 C6.01,7367.11125 5.371,7366.93797 4.8,7366.62489 L4.8,7366.67608 C4.801,7368.5989 6.178,7370.2549 8.092,7370.63591 C7.488,7370.79836 6.854,7370.82199 6.24,7370.70483 C6.777,7372.35099 8.318,7373.47829 10.073,7373.51078 C8.62,7374.63513 6.825,7375.24554 4.977,7375.24358 C4.651,7375.24259 4.325,7375.22388 4,7375.18549 C5.877,7376.37088 8.06,7377 10.29,7376.99705" id="twitter-[#154]">
+            
+                            </path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+            </a>
+            <a class="lang fw-bold tiny-text px-2 lh-1" href="#">EN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="offcanvas offcanvas-end bg-black text-white" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header justify-content-end">
+              <!-- <h5 class="offcanvas-title text-white px-3" id="offcanvasNavbarLabel">Group 6</h5> -->
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body px-5 mt-5">
+              <ul class="navbar-nav justify-content-end flex-grow-1 fs-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="spotlight-product.html">Spotlight Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cart.html">My Cart</a>
+                </li>
+                
+              </ul>
+              <form class="d-flex mt-4" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <a href="index.html" class="TopLink"><p>< Back To Main Site</p></a>
+            <p class="Title">Your cart</p>
+        </div>
+
+        <div class="row">
+            <div class="col-5"><p class="Item">Item</p></div>
+            <div class="col-5"><p class="QuantityTitle">Quantity</p></div>
+            <div class="col-2"><p class="Price">Price</p></div>
+        </div>
+
+        <div class="row boxes cart-item">
+            <div class="col-md-5 d-flex align-items-center">
+                <svg alt="https://www.svgrepo.com/svg/489424/close" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                    <g clip-path="url(#clip0_429_11083)">
+                        <path d="M7 7.00006L17 17.0001M7 17.0001L17 7.00006" stroke="#949494" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_429_11083">
+                            <rect width="24" height="24" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+                
+                <div class="cart-img grow-1">
+                    <div class="responsive-container responsive-image-rec-plus">
+                        <img src="https://images.unsplash.com/flagged/photo-1553642618-de0381320ff3?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fHByb2Zlc3Npb25hbCUyMG1hbiUyMGNsb3RoaW5nJTIwc3VpdHxlbnwwfHwwfHx8MA%3D%3D" alt="https://unsplash.com/" class="images">
+                    </div>
+                </div>
+                <p2 class="ItemName">Men's Suit (Dark Blue)</p2>
+            </div>
+
+            <div class="col-md-7 d-flex align-items-center mt-3 mt-md-0">
+                <div class="row d-flex justify-content-end justify-content-md-start">
+                    <div class="col-4 col-md-9 d-flex align-items-center">
+                        <select name="Quantity" id="Quantity" class="QuantityDropdown"> 
+                            <option value="1">1</option> 
+                            <option value="2">2</option> 
+                            <option value="3">3</option> 
+                            <option value="4">4</option> 
+                        </select>
+                    </div>
+        
+                    <div class="col-2 col-md-3 d-flex align-items-center">
+                        <p class="Cost">$123.45</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row boxes cart-item">
+            <div class="col-md-5 d-flex align-items-center">
+                <svg alt="https://www.svgrepo.com/svg/489424/close" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                    <g clip-path="url(#clip0_429_11083)">
+                        <path d="M7 7.00006L17 17.0001M7 17.0001L17 7.00006" stroke="#949494" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_429_11083">
+                            <rect width="24" height="24" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+                
+                <div class="cart-img grow-1">
+                    <div class="responsive-container responsive-image-rec-plus">
+                        <img src="https://images.unsplash.com/photo-1531604269568-ad1b8de0a633?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d29tYW4lMjBjbGFzc3klMjBkcmVzc3xlbnwwfHwwfHx8MA%3D%3D" class="images" alt="https://unsplash.com/">
+                    </div>
+                </div>
+                <p2 class="ItemName">Women's White Pair (Short Sleeve)</p2>
+            </div>
+
+            <div class="col-md-7 d-flex align-items-center mt-3 mt-md-0">
+                <div class="row d-flex justify-content-end justify-content-md-start">
+                    <div class="col-4 col-md-9 d-flex align-items-center">
+                        <select name="Quantity" id="Quantity" class="QuantityDropdown"> 
+                            <option value="1">1</option> 
+                            <option value="2">2</option> 
+                            <option value="3">3</option> 
+                            <option value="4">4</option> 
+                        </select>
+                    </div>
+        
+                    <div class="col-2 col-md-3 d-flex align-items-center">
+                        <p class="Cost">$123.45</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row boxes cart-item">
+            <div class="col-md-5 d-flex align-items-center">
+                <svg alt="https://www.svgrepo.com/svg/489424/close" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                    <g clip-path="url(#clip0_429_11083)">
+                        <path d="M7 7.00006L17 17.0001M7 17.0001L17 7.00006" stroke="#949494" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_429_11083">
+                            <rect width="24" height="24" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+                
+                <div class="cart-img grow-1">
+                    <div class="responsive-container responsive-image-rec-plus">
+                        <img src="https://images.unsplash.com/photo-1550703703-c6f229024ba9?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fHByb2Zlc3Npb25hbCUyMHdvbWFuJTIwY2xvdGhpbmd8ZW58MHx8MHx8fDA%3D" class="images" alt="https://unsplash.com/">
+                    </div>
+                </div>
+                <p2 class="ItemName">Women's Rib Knit Jersey</p2>
+            </div>
+
+            <div class="col-md-7 d-flex align-items-center mt-3 mt-md-0">
+                <div class="row d-flex justify-content-end justify-content-md-start">
+                    <div class="col-4 col-md-9 d-flex align-items-center">
+                        <select name="Quantity" id="Quantity" class="QuantityDropdown"> 
+                            <option value="1">1</option> 
+                            <option value="2">2</option> 
+                            <option value="3">3</option> 
+                            <option value="4">4</option> 
+                        </select>
+                    </div>
+        
+                    <div class="col-2 col-md-3 d-flex align-items-center">
+                        <p class="Cost">$123.45</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row boxes cart-item">
+            <div class="col-md-5 d-flex align-items-center">
+                <svg alt="https://www.svgrepo.com/svg/489424/close" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                    <g clip-path="url(#clip0_429_11083)">
+                        <path d="M7 7.00006L17 17.0001M7 17.0001L17 7.00006" stroke="#949494" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_429_11083">
+                            <rect width="24" height="24" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+                
+                <div class="cart-img grow-1">
+                    <div class="responsive-container responsive-image-rec-plus">
+                        <img src="https://images.unsplash.com/photo-1519804270019-39e929a7afb5?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGVtbWElMjB3YXRzb258ZW58MHx8MHx8fDA%3D" class="images" alt="https://unsplash.com/">
+                    </div>
+                </div>
+                <p2 class="ItemName">Men's Rib Knit Jersey</p2>
+            </div>
+
+            <div class="col-md-7 d-flex align-items-center mt-3 mt-md-0">
+                <div class="row d-flex justify-content-end justify-content-md-start">
+                    <div class="col-4 col-md-9 d-flex align-items-center">
+                        <select name="Quantity" id="Quantity" class="QuantityDropdown"> 
+                            <option value="1">1</option> 
+                            <option value="2">2</option> 
+                            <option value="3">3</option> 
+                            <option value="4">4</option> 
+                        </select>
+                    </div>
+        
+                    <div class="col-2 col-md-3 d-flex align-items-center">
+                        <p class="Cost">$123.45</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="row boxes">
+                <div class="d-flex align-items-center justify-content-end">
+                    <ul class="ListStyle">
+                        <li><p class="Subtotal">Subtotal: $1234.56</p></li>
+                        <li><p class="ShippingAndHandling">Shipping and Handling: $123.35</p></li>
+                    </ul>
+                </div>
+            </div>
+            
+        <div class="row boxes">
+            <div class="d-flex align-items-center justify-content-end">
+                <ul class="ListStyle">  
+                    <li class="BottomPageList">
+                        <p class="FinalPrice">Total: $1357.91</p>
+                    </li>
+
+                    <li class="BottomPageList">
+                        <a class="text-decoration-none" href="#">
+                            <div class="theme-btn mt-4 smaller fw-bold rounded bg-black text-white text-center">Checkout ✓</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <div class="d-flex justify-content-center">
+                <div class="logo">
+                    <span>6</span>
+                </div>  
+                
+            </div>
+            <div class="row mt-3 mt-md-0">
+                <p class="col-md-4">Author: Avrey</p>
+                <div class="col-md-4"></div>          
+                <p class="col-md-4">Additional help: Fiona</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="assets\js\bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Author: Fei (Fiona) Wang -->
+    <!-- Date: 2023-11-23 -->
+
+    <!-- Reference List -->
+
+    <!-- 
+        Bootstrap Carousel Skeleton Code
+        https://getbootstrap.com/docs/5.3/components/carousel/
+    -->
+
+    <!-- 
+        Bootstrap Navbar Skeleton Code
+        https://getbootstrap.com/docs/5.2/components/navbar/#offcanvas
+    -->
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Fei Wang, Avery,Jenil">
+    <title>Group6 Shopping Website</title>
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/main.css" rel="stylesheet" type="text/css">
+   
+    
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-dark bg-black text-white fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <div class="logo">
+              <span>6</span>
+            </div>
+          </a>
+          <div class="d-flex align-items-center">
+            <a href="#">
+              <svg alt="https://www.svgrepo.com/svg/513008/twitter-154" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15px" viewBox="0 -2 20 20" version="1.1">
+      
+                <title>twitter [#154]</title>
+                <desc>Created with Sketch.</desc>
+                <defs>
+            
+                </defs>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
+                    <g id="Dribbble-Light-Preview" transform="translate(-60.000000, -7521.000000)" fill="currentColor">
+                        <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M10.29,7377 C17.837,7377 21.965,7370.84365 21.965,7365.50546 C21.965,7365.33021 21.965,7365.15595 21.953,7364.98267 C22.756,7364.41163 23.449,7363.70276 24,7362.8915 C23.252,7363.21837 22.457,7363.433 21.644,7363.52751 C22.5,7363.02244 23.141,7362.2289 23.448,7361.2926 C22.642,7361.76321 21.761,7362.095 20.842,7362.27321 C19.288,7360.64674 16.689,7360.56798 15.036,7362.09796 C13.971,7363.08447 13.518,7364.55538 13.849,7365.95835 C10.55,7365.79492 7.476,7364.261 5.392,7361.73762 C4.303,7363.58363 4.86,7365.94457 6.663,7367.12996 C6.01,7367.11125 5.371,7366.93797 4.8,7366.62489 L4.8,7366.67608 C4.801,7368.5989 6.178,7370.2549 8.092,7370.63591 C7.488,7370.79836 6.854,7370.82199 6.24,7370.70483 C6.777,7372.35099 8.318,7373.47829 10.073,7373.51078 C8.62,7374.63513 6.825,7375.24554 4.977,7375.24358 C4.651,7375.24259 4.325,7375.22388 4,7375.18549 C5.877,7376.37088 8.06,7377 10.29,7376.99705" id="twitter-[#154]">
+            
+                            </path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+            </a>
+            <a class="lang fw-bold tiny-text px-2 lh-1" href="#">EN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="offcanvas offcanvas-end bg-black text-white" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header justify-content-end">
+              <!-- <h5 class="offcanvas-title text-white px-3" id="offcanvasNavbarLabel">Group 6</h5> -->
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body px-5 mt-5">
+              <ul class="navbar-nav justify-content-end flex-grow-1 fs-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="spotlight-product.html">Spotlight Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cart.html">My Cart</a>
+                </li>
+                
+              </ul>
+              <form class="d-flex mt-4" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+    </header>
+
+    <main>
+
+      <section class="intro container-fluid px-3 bg-light">
+          <div >
+           <div class="mainintro display-2 col-md-12 text-md-center fw-bold"> Proudly created by </div> 
+           <div class="mainintro display-2 col-md-12 text-md-center fw-bold"> 3 idiots since Nov 23  </div> 
+          </div>
+          <div>
+            &nbsp;
+          </div>
+         <div class="intro description container-fluid"> 
+            <div >
+              <div class="col-md-6 offset-md-3 text-secondary"> 
+                Since the beginning of this project, we have wanted to bring you a clothing site that not only looks nice, but also will rob you blind. Here in group 6, we believe that your money matters (to us). Our top of the line clothing has been sourced from the highest grade of open source images and we slapped 'em on here for your viewing pleasure.
+              </div>      
+            </div>
+        <div>
+      </section>
+
+      <section class="product-list py-5 px-3 bg-white">
+        <div class="container-fluid">
+
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+            
+              
+            <!--Now Trending-->
+            <div class="col">
+              <a href="product.html">
+                <div class="row g-0">
+                  <div class="col-12 rounded-1 overflow-hidden position-relative">
+                    <div class="badge badge-rotate bg-warning">
+                      Now Trending
+                    </div>
+                    <div >
+                      <img class="w-100 d-block" src="https://images.unsplash.com/flagged/photo-1553642618-de0381320ff3?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fHByb2Zlc3Npb25hbCUyMG1hbiUyMGNsb3RoaW5nJTIwc3VpdHxlbnwwfHwwfHx8MA%3D%3D" alt="https://unsplash.com/">
+                    </div>
+                  </div>
+                  
+                  <div class="col-6 mt-2">
+                    <h5 class="f9">Men's Suit Dark Blue </h5>
+                  </div>
+                  
+                  <div class="col-6 mt-2 text-end">
+                      <h6 class="fw-normal mb-0 d-inline-block">$743.00</h6>
+                      <h6 class="fw-normal text-body-secondary">
+                        <span class="d-inline-block"><del>$454.00</del></span>
+                      </h6>
+                  </div>
+                  
+
+                </div>
+              </a>
+            </div>
+
+            <!--carousel1 Best Selling-->
+            <div class="col">
+              <a href="product.html">
+                <div class="row g-0">
+                  <div class="col-12 rounded-1 overflow-hidden position-relative">
+                    <div class="badge badge-rotate bg-success">
+                      Best selling
+                    </div>
+                    <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img class="w-100 d-block" src="https://images.unsplash.com/photo-1574948082432-ef3fc11f0f36?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG1hbiUyMGNhc3VhbHxlbnwwfHwwfHx8MA%3D%3D" alt="https://unsplash.com/">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="w-100 d-block" src="https://images.unsplash.com/photo-1588731234159-8b9963143fca?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzJ8fG1hbiUyMG91dGZpdHxlbnwwfHwwfHx8MA%3D%3D" alt="https://unsplash.com/">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="w-100 d-block" src="https://images.unsplash.com/photo-1614495039368-525273956716?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fG1hbiUyMG91dGZpdHxlbnwwfHwwfHx8MA%3D%3D" alt="https://unsplash.com/">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carousel1" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    
+                      </a>
+                      <a class="carousel-control-next" href="#carousel1" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      
+                      </a>
+                    </div>
+                  </div>
+                  
+                  <div class="col-6 mt-2">
+                    <h5 class="f9">Men Clothing</h5>
+                  </div>
+                  
+                  <div class="col-6 mt-2 text-end">
+                      <h6 class="fw-normal mb-0 d-inline-block">$654.00</h6>
+                      <h6 class="fw-normal text-body-secondary">
+                        <span class="d-inline-block"><del>$655.00</del></span>
+                      </h6>
+                  </div>
+                  
+
+                </div>
+              </a>
+            </div>
+        
+            <!-- New one 3-->
+            <div class="col">
+              <a href="product.html">
+                  <div class="row g-0">
+                  <div class="col-12 rounded-1 overflow-hidden position-relative">
+                      <div >
+                      <img class="w-100 d-block" src="https://images.unsplash.com/photo-1531604269568-ad1b8de0a633?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d29tYW4lMjBjbGFzc3klMjBkcmVzc3xlbnwwfHwwfHx8MA%3D%3D" alt="https://unsplash.com/">
+                      </div>
+                  </div>
+                  
+                  <div class="col-6 mt-2">
+                      <h5 class="f9">Women's White Pair Clothing Short-Sleeve</h5>
+                  </div>
+                  
+                  <div class="col-6 mt-2 text-end">
+                      <h6 class="fw-normal mb-0 d-inline-block">$262.98</h6>
+                      <h6 class="fw-normal text-body-secondary">
+                          <span class="d-inline-block"><del>$263.99</del></span>
+                      </h6>
+                  </div>
+                  
+  
+                </div>
+              </a>
+            </div>
+            <!-- New One 7 -->
+            <div class="col">
+              <a href="product.html">
+                <div class="row g-0">
+                  <div class="col-12 rounded-1 overflow-hidden position-relative">
+                    <div class="badge badge-rotate bg-warning">
+                      Now Trending
+                    </div>
+                    <div >
+                      <img class="w-100 d-block" src="https://images.unsplash.com/photo-1618164390585-7b261f7eb64c?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGVha3klMjBibGluZGVyc3xlbnwwfHwwfHx8MA%3D%3D" alt="https://unsplash.com/">
+                    </div>
+                  </div>
+                  
+                  <div class="col-6 mt-2">
+                    <h5 class="f9">Men's two-piece Formal Combination</h5>
+                  </div>
+                  
+                  <div class="col-6 mt-2 text-end">
+                      <h6 class="fw-normal mb-0 d-inline-block">$377.98</h6>
+                      <h6 class="fw-normal text-body-secondary">
+                        <span class="d-inline-block"><del>$378.00</del></span>
+                      </h6>
+                  </div>
+                  
+
+                </div>
+              </a>
+            </div>
+
+            
+
+            <!--Out of Stock-->
+            <div class="col">
+              <a href="product.html">
+                <div class="row g-0">
+                  <div class="col-12 rounded-1 overflow-hidden position-relative">
+                    <div class="badge badge-rotate bg-danger">
+                      Out of Stock
+                    </div>
+                    <div >
+                      <img class="w-100 d-block" src="https://images.unsplash.com/photo-1552874869-5c39ec9288dc?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d29tZW5zJTIwY2xvdGhpbmd8ZW58MHx8MHx8fDA%3D" alt="https://unsplash.com/">
+                    </div>
+                  </div>
+                  
+                  <div class="col-6 mt-2">
+                    <h5 class="f9"> Woman White Dress </h5>
+                  </div>
+                  
+                  <div class="col-6 mt-2 text-end">
+                      <h6 class="fw-normal mb-0 d-inline-block">$∞.01</h6>
+                      <h6 class="fw-normal text-body-secondary">
+                        <span class="d-inline-block"><del>$864.00</del></span>
+                      </h6>
+                  </div>
+                  
+
+                </div>
+              </a>
+            </div>
+
+            <!-- New One 5 -->
+            <div class="col">
+              <a href="product.html">
+                <div class="row g-0">
+                  <div class="col-12 rounded-1 overflow-hidden position-relative">
+                    <div >
+                      <img class="w-100 d-block" src="https://images.unsplash.com/photo-1550703703-c6f229024ba9?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fHByb2Zlc3Npb25hbCUyMHdvbWFuJTIwY2xvdGhpbmd8ZW58MHx8MHx8fDA%3D" alt="https://unsplash.com/">
+                    </div>
+                  </div>
+                  
+                  <div class="col-6 mt-2">
+                    <h5 class="f9">Women's Rib Knit Jersey Long-Sleeve</h5>
+                  </div>
+                  
+                  <div class="col-6 mt-2 text-end">
+                      <h6 class="fw-normal mb-0 d-inline-block">$1231.00</h6>
+                      <h6 class="fw-normal text-body-secondary">
+                        <span class="d-inline-block"><del>$797.00</del></span>
+                      </h6>
+                  </div>
+                  
+
+                </div>
+              </a>
+            </div>
+
+            <!-- carousel2 6th item -->
+            <div class="col">
+              <a href="product.html">
+                <div class="row g-0">
+                  <div class="col-12 rounded-1 overflow-hidden position-relative">
+                    <div class="badge badge-rotate bg-success">
+                      Best selling
+                    </div>
+                    <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img class="w-100 d-block" src="https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFuJTIwb3V0Zml0fGVufDB8fDB8fHww" alt="https://unsplash.com/">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="w-100 d-block" src="https://plus.unsplash.com/premium_photo-1661645931524-9e609aeeddc7?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG1lbiUyMGNsb3RoaW5nfGVufDB8fDB8fHww" alt="https://unsplash.com/">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="w-100 d-block" src="https://images.unsplash.com/photo-1546572797-e8c933a75a1f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG1lbiUyMGNsb3RoaW5nfGVufDB8fDB8fHww" alt="https://unsplash.com/">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carousel2" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    
+                      </a>
+                      <a class="carousel-control-next" href="#carousel2" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      
+                      </a>
+                    </div>
+                  </div>
+                  
+                  <div class="col-6 mt-2">
+                    <h5 class="f9">Men  Blazer Clothing</h5>
+                  </div>
+                  
+                  <div class="col-6 mt-2 text-end">
+                      <h6 class="fw-normal mb-0 d-inline-block">$423.00</h6>
+                      <h6 class="fw-normal text-body-secondary">
+                        <span class="d-inline-block"><del>$433.00</del></span>
+                      </h6>
+                  </div>
+                  
+
+                </div>
+              </a>
+            </div>
+
+            <div class="col">
+              <a href="product.html">
+                  <div class="row g-0">
+                  <div class="col-12 rounded-1 overflow-hidden position-relative">
+                      <div >
+                      <img class="w-100 d-block" src="https://images.unsplash.com/photo-1519804270019-39e929a7afb5?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGVtbWElMjB3YXRzb258ZW58MHx8MHx8fDA%3D" alt="https://unsplash.com/">
+                      </div>
+                  </div>
+                  
+                  <div class="col-6 mt-2">
+                      <h5 class="f9">Men's Rib Knit Jersey Long-Sleeve</h5>
+                  </div>
+                  
+                  <div class="col-6 mt-2 text-end">
+                      <h6 class="fw-normal mb-0 d-inline-block">$800.00</h6>
+                      <h6 class="fw-normal text-body-secondary">
+                          <span class="d-inline-block"><del>$800.00</del></span>
+                      </h6>
+                  </div>
+                  
+  
+                  </div>
+              </a>
+            </div>
+            
+            <div class="col">
+              <a href="product.html">
+                  <div class="row g-0">
+                  <div class="col-12 rounded-1 overflow-hidden position-relative">
+                      <div >
+                      <img class="w-100 d-block" src="https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAzfHxyYW5kb20lMjBjbG90aGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="https://unsplash.com/">
+                      </div>
+                  </div>
+                  
+                  <div class="col-6 mt-2">
+                      <h5 class="f9">Women's Rib Knit Jersey Long-Sleeve</h5>
+                  </div>
+                  
+                  <div class="col-6 mt-2 text-end">
+                      <h6 class="fw-normal mb-0 d-inline-block">$546.00</h6>
+                      <h6 class="fw-normal text-body-secondary">
+                          <span class="d-inline-block"><del>$454.00</del></span>
+                      </h6>
+                  </div>
+                  
+  
+                  </div>
+              </a>
+            </div>
+
+            <div class="col">
+              <a href="product.html">
+                  <div class="row g-0">
+                  <div class="col-12 rounded-1 overflow-hidden position-relative">
+                      <div >
+                      <img class="w-100 d-block" src="https://images.unsplash.com/photo-1565462905097-5e701c31dcfb?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTExfHxvbGQlMjBmYXNoaW9ufGVufDB8fDB8fHww" alt="https://unsplash.com/">
+                      </div>
+                  </div>
+                  
+                  <div class="col-6 mt-2">
+                      <h5 class="f9">White Classy Dress </h5>
+                  </div>
+                  
+                  <div class="col-6 mt-2 text-end">
+                      <h6 class="fw-normal mb-0 d-inline-block">$681.00</h6>
+                      <h6 class="fw-normal text-body-secondary">
+                          <span class="d-inline-block"><del>$411.00</del></span>
+                      </h6>
+                  </div>
+                  
+  
+                  </div>
+              </a>
+            </div>
+            
+             <div class="col">
+                <a href="product.html">
+                     <div class="row g-0">
+                          <div class="col-12 rounded-1 overflow-hidden position-relative">
+                              <div >
+                                <img class="w-100 d-block" src="https://images.unsplash.com/photo-1599834562135-b6fc90e642ca?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJlYXJkfGVufDB8fDB8fHww" alt="https://unsplash.com/">
+                                </div>
+                          </div>
+                            
+                          <div class="col-6 mt-2">
+                                <h5 class="f9">Men Hoodie Black </h5>
+                          </div>
+                            
+                          <div class="col-6 mt-2 text-end">
+                              <h6 class="fw-normal mb-0 d-inline-block">$94.00</h6>
+                               <h6 class="fw-normal text-body-secondary">
+                                  <span class="d-inline-block"><del>$74.99</del></span>
+                                </h6>
+                          </div>
+                            
+            
+                      </div>
+                  </a>
+             </div>
+             
+            <div class="col">
+              <a href="product.html">
+                <div class="row g-0">
+                  <div class="col-12 rounded-1 overflow-hidden position-relative">
+                    <div class="badge badge-rotate bg-success">
+                      Best selling
+                    </div>
+                    <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img class="w-100 d-block" src="https://plus.unsplash.com/premium_photo-1693242804203-e8de4e41f7b9?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHdvbWVucyUyMGNsb3RoaW5nfGVufDB8fDB8fHww" alt="https://unsplash.com/">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="w-100 d-block" src="https://images.unsplash.com/photo-1601783226960-ca6f92b97838?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d29tYW4lMjBjYXN1YWx8ZW58MHx8MHx8fDA%3D" alt="https://unsplash.com/">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="w-100 d-block" src="https://images.unsplash.com/photo-1541800621153-398f01cf7716?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdvbWFuJTIwY2FzdWFsfGVufDB8fDB8fHww" alt="https://unsplash.com/">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carousel3" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    
+                      </a>
+                      <a class="carousel-control-next" href="#carousel3" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      
+                      </a>
+                    </div>
+                  </div>
+                  
+                  <div class="col-6 mt-2">
+                    <h5 class="f9">Women's Clothing</h5>
+                  </div>
+                  
+                  <div class="col-6 mt-2 text-end">
+                      <h6 class="fw-normal mb-0 d-inline-block">$359.90</h6>
+                      <h6 class="fw-normal text-body-secondary">
+                        <span class="d-inline-block"><del>$35.99</del></span>
+                      </h6>
+                  </div>
+                  
+
+                </div>
+              </a>
+            </div>
+
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="subscription bg-light">
+        <div class="container">
+          <div class="col-md-6 follow-us fs-4">
+            <a href="#">FOLLOW @ US</a>
+          </div>
+          <div class="row mt-4 gx-sm-1 gx-md-4">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col">
+                  <div class="responsive-container responsive-image-square-plus">
+                    <img class="rounded" alt="https://unsplash.com/photos/round-white-and-gold-colored-analog-watch-with-gold-colored-milanese-band-O1DhTK0_1iQ" src="https://images.unsplash.com/photo-1576053139778-7e32f2ae3cfd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="responsive-container responsive-image-square-plus">
+                    <img class="rounded" alt="https://unsplash.com/photos/two-tortoiseshell-framed-wayfarer-styled-sunglasses-with-box-Pp_nVOuJMTU" src="https://images.unsplash.com/photo-1559070081-648fb00b2ed1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <div class="subscription-box d-flex align-items-center justify-content-center">
+                  <div>
+                    <h3 class="fw-bold fs-5">Sign up and recieve <i>hot deals</i></h2>
+                  
+                      <div class="mt-3">
+                        <input type="text" placeholder="Email address" name="mail" required>
+    
+                        <div class="subscribe-btn mt-1 mb-2 theme-btn long-btn smaller fw-bold bg-black text-white text-center">
+                          Subscribe
+                        </div>
+
+                        <a href="#" class="tiny-text text-secondary">we might sell your info</a>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container-fluid">
+          <div class="d-flex justify-content-center">
+              <div class="logo">
+                  <span>6</span>
+              </div>  
+              
+          </div>
+          <div class="row mt-3 mt-md-3">
+              <p class="col-md-4">Navbar and second section: Fiona</p>
+              <p class="col-md-4">Image Finder and First Section: Jenil</p>          
+              <p class="col-md-4">Footer and Newsletter: Avrey</p>
+          </div>
+      </div>
+    </footer>
+
+    </main>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>

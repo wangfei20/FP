@@ -1,0 +1,165 @@
+.product-container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#banner{
+    width:100%;
+    height:400px;
+    /* Image from Unsplash: https://unsplash.com/photos/a-box-filled-with-lots-of-different-types-of-rings-k8xNYIKpVg0 */
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position-y: bottom;
+
+}
+#banner p{
+    position: absolute;
+    bottom:40px;
+    left:40px;
+    max-width: 80%;
+    color:white;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#bannerdesc{
+    padding-top:185px;
+    padding-left:250px;
+}
+
+.main{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*
+.spotimage{
+    height: 420px;
+    width: 450px;
+    float: left;
+    padding-top: 20px;
+    width: 47.5%;
+} */
+.SpaceBetween{
+    width:5%;
+    float:left;
+}
+
+.FirstInfo{
+    float:left;
+    width:47.5%;
+
+}
+
+.SupportingInfo{
+    font-size: 16px;
+}
+ 
+
+.FI_Heading{
+    font-size: 23px;
+    margin-bottom: 19px;
+}
+
+.SupportingDesc{
+    font-size:20px;
+}
+
+
+
+.RealPrice{
+    font-size: 13px;
+    text-decoration: line-through;
+}
+
+.DisPrice{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.dispercent{
+    
+    color:white;
+    font-weight: bold;
+    
+}
+
+.HorizontalSpace{
+    float: left;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.SecondInfo,.ThirdInfo{
+    float: left;
+    width: 47.5%;
+}
+
+p1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.lastcontainer{
+    padding-bottom: 20px;
+}
+
+.supportblock:first-child{
+    margin-top: 0px;
+}
+
+.Muted1,.Muted2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.SupportingInfo::first-line{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.info{
+    margin-top:50px;
+}
+
+.SupportingInfo{
+    margin-bottom:5px;
+}
+
+.Muted1{
+    margin-top:0px;
+}
+.Muted2{
+    margin-bottom: 0px;
+}
+
+.Cartbutton,.DiscountPrice{
+    margin-top: 0px;
+}
+
+.lastinfo{
+    margin-bottom: 70px;
+}
+
+.lastcontain{
+    margin-bottom: 100px;
+}
+
+.container{
+    margin-top: 100px;
+}
+
+.RealPrice,.Price{
+     margin-top: 0px;
+}
+
+.SupportingDesc{
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+
+
+
