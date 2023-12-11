@@ -38,7 +38,6 @@ body {
 .Checkout {
     padding-left: 25px;
     padding-right: 25px;
-    margin-right: 80px;
     border: none;
     border-radius: 5px;
     background-color: black;
@@ -57,7 +56,11 @@ body {
     width: 100%;
     max-width: 100%;
     min-width: 50%;
+    margin-left:0px !important;
+    margin-right:0px !important;
 }
+
+
 
 .images {
     width: 50px; 
@@ -101,27 +104,28 @@ body {
 }
 
 .Subtotal {
-    padding-left: 111px;
+    padding-left: 98px;
     font-size: 20px;
 }
 
 .ShippingAndHandling {
-    margin-right: 86px;
     font-size: 20px;
 }
 
 .FinalPrice {
+    padding-right: 7px;
     font-size: 25px;
 }
 
 .QuantityDropdown {
+    cursor: pointer;
     width: 60px;
     font-size: 16px;
 }
 
-.BottomPageList {
+/* .BottomPageList {
     padding-right: 88px;
-}
+} */
 
 .cart-img {
     padding-left: 10px;
@@ -131,4 +135,8 @@ body {
 
 .cart-item select {
     padding: 8px 5px;
+}
+
+svg {
+    cursor: pointer;
 }
